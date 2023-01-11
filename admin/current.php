@@ -25,7 +25,7 @@ if ($_SESSION['RollNo']) {
             <div class="navbar-inner">
                 <div class="container">
                     <a class="btn btn-navbar" data-toggle="collapse" data-target=".navbar-inverse-collapse">
-                        <i class="icon-reorder shaded"></i></a><a class="brand" href="index.php">AMC </a>
+                        <i class="icon-reorder shaded"></i></a><a class="brand" href="index.php">AMC ISE LIBRARY MANAGEMENT</a>
                     <div class="nav-collapse collapse navbar-inverse-collapse">
                         <ul class="nav pull-right">
                             <li class="nav-user dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">
@@ -130,11 +130,31 @@ if ($_SESSION['RollNo']) {
                             ?>
 
                                     <tr>
-                                      <td><?php echo strtoupper($rollno) ?></td>
-                                      <td><?php echo $bookid ?></td>
-                                      <td><?php echo $name ?></td>
-                                      <td><?php echo $issuedate ?></td>
-                                      <td><?php echo $duedate ?></td>
+                                    <td><?php if($dues > 0)
+                                                  echo "<font color='red'>".$rollno."</font>";
+                                                else
+                                                  echo "<font color='grey'>".$rollno."</font>";
+                                              ?>
+                                      <td><?php if($dues > 0)
+                                                  echo "<font color='red'>".$bookid."</font>";
+                                                else
+                                                  echo "<font color='grey'>".$bookid."</font>";
+                                              ?>
+                                          <td><?php if($dues > 0)
+                                                  echo "<font color='red'>".$name."</font>";
+                                                else
+                                                  echo "<font color='grey'>".$name."</font>";
+                                              ?>
+                                      <td><?php if($dues > 0)
+                                                  echo "<font color='red'>".$issuedate."</font>";
+                                                else
+                                                  echo "<font color='grey'>".$issuedate."</font>";
+                                              ?>
+                                      <td><?php if($dues > 0)
+                                                  echo "<font color='red'>".$duedate."</font>";
+                                                else
+                                                  echo "<font color='grey'>".$duedate."</font>";
+                                              ?>
                                       <td><?php if($dues > 0)
                                                   echo "<font color='red'>".$dues."</font>";
                                                 else
@@ -153,7 +173,7 @@ if ($_SESSION['RollNo']) {
         </div>
 <div class="footer">
             <div class="container">
-                <b class="copyright">&copy; 2022 Library Management System </b>
+                <b class="copyright">&copy; 2023 Library Management System </b>
             </div>
         </div>
         

@@ -23,7 +23,7 @@ require('dbconn.php');
             <div class="navbar-inner">
                 <div class="container">
                     <a class="btn btn-navbar" data-toggle="collapse" data-target=".navbar-inverse-collapse">
-                        <i class="icon-reorder shaded"></i></a><a class="brand" href="index.php">AMC </a>
+                        <i class="icon-reorder shaded"></i></a><a class="brand" href="index.php">AMC ISE LIBRARY MANAGEMENT</a>
                     <div class="nav-collapse collapse navbar-inverse-collapse">
                         <ul class="nav pull-right">
                             <li class="nav-user dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">
@@ -148,7 +148,7 @@ require('dbconn.php');
         </div>
 <div class="footer">
             <div class="container">
-                <b class="copyright">&copy; 2022 Library Management System </b>
+                <b class="copyright">&copy; 2023 Library Management System </b>
             </div>
         </div>
         

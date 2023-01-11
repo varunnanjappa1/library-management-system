@@ -50,7 +50,7 @@ require('dbconn.php');
 					<input type="text" Name="Name" placeholder="Name" required>
 					<input type="text" Name="Email" placeholder="Email" required>
 					<input type="password" Name="Password" placeholder="Password" required>
-					<input type="text" Name="PhoneNumber" placeholder="Phone Number" required>
+					<input type="text" Name="PhoneNumber" placeholder="Phone Number" >
 					<input type="text" Name="RollNo" placeholder="Roll Number" required="">
 					
 					<select name="Category" id="Category">
