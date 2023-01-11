@@ -33,8 +33,7 @@ if ($_SESSION['RollNo']) {
                                 <b class="caret"></b></a>
                                 <ul class="dropdown-menu">
                                     <li><a href="index.php">Your Profile</a></li>
-                                    <!--li><a href="#">Edit Profile</a></li>
-                                    <li><a href="#">Account Settings</a></li-->
+                                    <li><a href="edit_student_details.php">Edit Profile</a></li>
                                     <li class="divider"></li>
                                     <li><a href="logout.php">Logout</a></li>
                                 </ul>
@@ -139,7 +138,7 @@ if ($_SESSION['RollNo']) {
         </div>
 <div class="footer">
             <div class="container">
-                <b class="copyright">&copy; 2022 Library Management System </b>All rights reserved.
+                <b class="copyright">&copy; 2022 Library Management System </b>
             </div>
         </div>
         

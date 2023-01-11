@@ -3,7 +3,7 @@ require('dbconn.php');
 
 
 
-$rollno=$_GET['RollNo'];
+$rollno=$_GET['id'];
 
 $sql="delete from LMS.user where RollNo='$rollno'";
 

@@ -115,7 +115,7 @@ if ($_SESSION['RollNo']) {
                                                                                 
                                         <a href="acceptreturn.php?id1=<?php echo $bookid; ?>&id2=<?php echo $rollno; ?>&id3=<?php echo $dues ?>" class="btn btn-success">Accept</a>
                                          
-                                        <!--a href="rejectreturn.php?id1=<?php echo $bookid; ?>&id2=<?php echo $rollno; ?>" class="btn btn-danger">Reject</a-->
+                                        <a href="reject.php?id1=<?php echo $bookid; ?>&id2=<?php echo $rollno; ?>" class="btn btn-danger">Reject</a>
                                     </center></td>
                                     </tr>
                                <?php } ?>
@@ -130,7 +130,7 @@ if ($_SESSION['RollNo']) {
         </div>
 <div class="footer">
             <div class="container">
-                <b class="copyright">&copy; 2022 Library Management System </b>All rights reserved.
+                <b class="copyright">&copy; 2022 Library Management System </b>
             </div>
         </div>
         
