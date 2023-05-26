@@ -2,7 +2,6 @@
 require('dbconn.php');
 
 $bookid=$_GET['id1'];
-
 $rollno=$_GET['id2'];
 
 $sql="select Category from LMS.user where RollNo='$rollno'";
